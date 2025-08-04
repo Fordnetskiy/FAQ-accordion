@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'WorkSans';
-    src: url(/Verstka/faq-accordion-main/faq-accordion-main/assets/fonts/WorkSans-VariableFont_wght.ttf);
+    src: url(./assets/fonts/WorkSans-VariableFont_wght.ttf);
 }
 
 :root{
@@ -26,7 +26,7 @@ body{
 .bg{
     width: 100%;
     height: 250px;  
-    background-image: url(/Verstka/faq-accordion-main/faq-accordion-main/assets/images/background-pattern-desktop.svg);
+    background-image: url(./assets/images/background-pattern-desktop.svg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,7 +115,7 @@ li{
 
 @media (max-width: 630px) {
     .header{
-        background-image: url(/Verstka/faq-accordion-main/faq-accordion-main/assets/images/background-pattern-mobile.svg);
+        background-image: url(./assets/images/background-pattern-mobile.svg);
     }
 }
 @media (max-width: 490px) {
@@ -143,4 +143,5 @@ li{
     .list__item-title {
         font-size: 1em;
     }
+
 }
